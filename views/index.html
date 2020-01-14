@@ -1,0 +1,57 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>The Yearlies</title>
+    <meta name="description" content="A place to list and share your favorite album, movie, and tv show for each year.">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        The Yearlies
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Oh hi,</p>
+      
+      <p>The Yearlies is a place to list and share your favorite album, movie, and tv show for each year.</p>
+      
+      <form>
+        <input name="movie" aria-label="a new movie" type="text" maxlength="100" placeholder="Movies!">
+        <input name="year" aria-label="a new year" type="text" maxlength="100" placeholder="Year!">
+        <button type="submit" id="submit-movie">Submit Movie</button>
+      </form>
+      
+      <section class="movies">
+        <ul id="movies"></ul>
+        <button id="clear-movies">
+          Clear Movies
+        </button>
+      </section>
+      
+    </main>
+
+    <footer>
+      Made with <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
