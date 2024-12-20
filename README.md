@@ -1,5 +1,5 @@
 # the-yearlies
-A place to list and share your favorite album, movie, and tv show for each year. test2
+A place to list and share your favorite album, movie, and tv show for each year.
 
 
 # The 2024 Rewrite Plan
