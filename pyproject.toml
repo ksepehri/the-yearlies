@@ -1,0 +1,9 @@
+[project]
+name = "the-yearlies"
+version = "0.1.0"
+description = "A place to list and share your favorite album, movie, and tv show for each year."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ruff>=0.8.4",
+]
